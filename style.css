@@ -1,0 +1,128 @@
+:root {
+    /* NEW DARKER BLUE PALETTE */
+    --rich-cream: #F1DAC4;
+    --muted-lavender: #A69CAC;
+    --deep-slate-blue: #474973;
+    --navy-midnight: #161B33;
+    --obsidian: #0D0C1D;
+    --white: #ffffff;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-color: var(--rich-cream);
+    color: var(--obsidian);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge {
+    background-color: var(--deep-slate-blue);
+    color: var(--white);
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 24px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem); 
+    font-weight: 900;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    color: var(--navy-midnight);
+    line-height: 1.2;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: var(--deep-slate-blue);
+    font-weight: 500;
+}
+
+.card {
+    background: var(--white);
+    padding: 60px 30px;
+    border-radius: 35px;
+    box-shadow: 0 20px 40px rgba(13, 12, 29, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--muted-lavender);
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 900;
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+    color: var(--navy-midnight);
+}
+
+.secure-text {
+    font-size: 0.95rem;
+    margin-bottom: 35px;
+    font-weight: 500;
+    color: var(--muted-lavender);
+}
+
+.buy-btn {
+    display: block;
+    width: 100%;
+    padding: 22px;
+    background-color: var(--deep-slate-blue);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    transition: background-color 0.2s;
+}
+
+.buy-btn:hover {
+    background-color: var(--navy-midnight);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer a {
+    color: var(--navy-midnight);
+    text-decoration: none;
+    border-bottom: 2px solid var(--deep-slate-blue);
+}

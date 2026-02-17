@@ -1,0 +1,7 @@
+3. How to Explain the "Setup"The biggest fear for a non-techie is that they’ll have to
+ hire a "computer guy" to make it work.
+ You have to emphasize that it's a zero-effort setup.
+ What they thinkWhat you tell them"I'll need a second website.
+ ""Nope, you only keep your one current site.""It will be expensive to run.""
+ It’s just a yearly name registration (like a car tag).""I have to change my hosting.""Nothing changes. 
+ The name just 'points' to where you are."
